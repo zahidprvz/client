@@ -1,0 +1,36 @@
+/* src/styles/globalStyles.css */
+
+/* Apply a consistent box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: #f8f9fa;
+  color: #212529;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button, textarea, select {
+  font: inherit;
+}
